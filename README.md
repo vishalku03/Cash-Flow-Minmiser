@@ -65,3 +65,26 @@ This process continues until every person has been settled.
 
 This can be achieved using a <b>Max Heap.</b>  
 This is the solution we follow to implement our Cash Flow Minimiser.
+
+
+HERE OVERVIEW :-
+
+1. JavaScript: The primary programming language used for the project.
+2. React: A JavaScript library for building user interfaces, used for creating dynamic and interactive components.
+
+Data Structures:
+
+3. Arrays: For storing lists of transactions and users.
+4. Objects: For representing individual transactions and users.
+5. Graphs: For modeling relationships and transactions between users.
+6. Graph Algorithms: Used to optimize and minimize cash flow by identifying cycles and simplifying transactions.
+7. State Management: Managing the state of the application, likely using React’s state management features.
+8. Hooks: React hooks like useState and useEffect for managing component state and side effects.
+9. Components: Modular and reusable UI components built with React.
+10. Event Handling: Managing user interactions and events within the application.
+11. API Integration: Fetching and sending data to a backend server or external APIs (if applicable).
+    
+12. CSS/Styling: Styling the application to make it visually appealing and user-friendly.
+
+S0,
+   These concepts work together to create a functional and efficient application for minimizing cash flow among multiple transactions.
