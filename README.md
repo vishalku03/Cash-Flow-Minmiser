@@ -14,7 +14,7 @@ https://user-images.githubusercontent.com/76661350/151113470-62df1428-0c25-4019-
 ## Installation
 
 Clone the repository <br/>
-`git clone https://github.com/mittal-parth/Cash-Flow-Minmiser` <br/>
+`git clone https://github.com/vishalku03/Cash-Flow-Minmiser` <br/>
 `cd Cash-Flow-Minmiser`
 
 Check package.json file and ensure scripts are notated as below:
