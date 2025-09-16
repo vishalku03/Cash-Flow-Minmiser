@@ -60,19 +60,37 @@ Based on their net balances, we can segregate the people into 2 categories -
 </ul>
 
 
-A person is said to come under <i>credit</i> if his/ her net balance is <i>greater than</i> 0. This means that this person has to get his money back. 
-Likewise, a person is said to come under <i>debit</i> if his/ her balance is <i>lesser than</i> 0. This means this person owes money to someone else. 
-(If the net balance of an individual is 0, that means that he/ she need not give nor receive any money and they have been <i>settled</i>. 
-Such people will no longer be taken into consideration for further transaction settlements). 
+How Cash Flow Minimiser Works
 
+A person is classified under credit if their net balance is greater than 0, meaning they are owed money.
+Similarly, a person falls under debit if their net balance is less than 0, meaning they owe money to others.
 
-<i>Eg: If Tarun pays ₹100 to Yash, then we can say that Tarun has to be reimbursed ₹100 which means his net balance is 100 and he is under credit. 
-Likewise, Yash who borrowed money has to pay Tarun back ₹100 as he is in debt. So, Yash has a net balance of -100. Once this has been settled, both their balances become 0. </i>
+If a person’s net balance is 0, they are considered settled and do not participate in further transactions.
 
-Next, from among the people who are in debit, we pick the person with the <b>largest debit.</b> 
-Then, among the people who are under credit, pick the person with the <b>largest credit. </b>
-We start off by settling these 2 values. Once they have been settled, we take the person with the next largest credit and the next largest debit and settle these 2. 
-This process continues until every person has been settled.
+Example
+--------
 
-This can be achieved using a <b>Max Heap.</b>  
-This is the solution we follow to implement our Cash Flow Minimiser.
+Suppose Tarun pays ₹100 to Yash:
+
+Tarun’s net balance becomes +100 → he is under credit and is to be reimbursed.
+
+Yash’s net balance becomes -100 → he is under debit and needs to repay Tarun.
+
+Once the transaction is completed, both their balances return to 0, meaning they are settled.
+
+Settlement Algorithm---
+---------------------
+
+From the list of debtors, select the person with the largest debit.
+
+From the list of creditors, select the person with the largest credit.
+
+Settle these two amounts against each other.
+
+Repeat this process for the next largest credit and debit until all individuals are fully settled.
+
+Implementation:
+-------------
+
+This process is efficiently implemented using a Max Heap, which allows the algorithm to always pick the largest credit and largest debit at each step.
+This is the approach followed in the Cash Flow Minimiser to minimize the number of transactions needed to settle all balances.
