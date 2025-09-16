@@ -1,21 +1,32 @@
 # Cash Flow Minimiser
 
-This is a program that allows users to split expenses with friends or colleagues. If a group needs to share the cost of a particular bill, the Cash Flow Minimiser will make sure that each person who paid money, gets reimbursed with the correct amount. This is also done using the minimum number of transactions. 
+[![Live App](https://img.shields.io/badge/Live-App-00bfff)](https://cash-flow-minmiser.vercel.app)
+
+This project allows users to **split expenses with friends or colleagues**.  
+If a group needs to share the cost of a particular bill, the Cash Flow Minimiser ensures that **everyone who paid gets reimbursed correctly**.  
+It also calculates the **minimum number of transactions** required to settle debts.
+
+---
 
 ## Demo
 
-https://minimise-cash-flow.netlify.app/
+Check the live app here: [https://cash-flow-minmiser.vercel.app](https://cash-flow-minmiser.vercel.app)
 
-## Video
+---
 
-https://user-images.githubusercontent.com/76661350/151113470-62df1428-0c25-4019-a5ee-25353530752c.mp4
+## Video Demo
 
+![Demo Video](https://user-images.githubusercontent.com/76661350/151113470-62df1428-0c25-4019-a5ee-25353530752.mp4)
+
+---
 
 ## Installation
 
-Clone the repository <br/>
-`git clone https://github.com/mittal-parth/Cash-Flow-Minmiser` <br/>
-`cd Cash-Flow-Minmiser`
+Clone the repository:  
+```bash
+git clone https://github.com/vishalku03/Cash-Flow-Minmiser.git
+cd Cash-Flow-Minmiser
+
 
 Check package.json file and ensure scripts are notated as below:
 
