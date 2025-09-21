@@ -12,13 +12,7 @@ It also calculates the **minimum number of transactions** required to settle deb
 
 Check the live app here: [https://cash-flow-minmiser.vercel.app](https://cash-flow-minmiser.vercel.app)
 
----
 
-## Video Demo
-
-![Demo Video](https://user-images.githubusercontent.com/76661350/151113470-62df1428-0c25-4019-a5ee-25353530752.mp4)
-
----
 
 ## Installation
 
@@ -98,3 +92,4 @@ This is the approach followed in the Cash F
 =======
 This is the approach followed in the Cash Flow Minimiser to minimize the number of transactions needed to settle all balances.
 >>>>>>> f7d83ee40df4abb4e0fd6fc006a983f30c8624a1
+
