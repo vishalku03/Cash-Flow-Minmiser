@@ -93,4 +93,8 @@ Implementation:
 -------------
 
 This process is efficiently implemented using a Max Heap, which allows the algorithm to always pick the largest credit and largest debit at each step.
+<<<<<<< HEAD
 This is the approach followed in the Cash F
+=======
+This is the approach followed in the Cash Flow Minimiser to minimize the number of transactions needed to settle all balances.
+>>>>>>> f7d83ee40df4abb4e0fd6fc006a983f30c8624a1
